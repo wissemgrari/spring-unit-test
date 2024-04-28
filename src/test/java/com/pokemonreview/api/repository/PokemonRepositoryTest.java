@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
-public class PokemonRepositoryTests {
+public class PokemonRepositoryTest {
   
   @Autowired private PokemonRepository pokemonRepository;
   
